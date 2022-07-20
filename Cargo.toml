@@ -1,0 +1,11 @@
+[package]
+name = "rust_coding_test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { package = "serde", version = "1.0.139" }
+rust_csv = { git = "https://gitcrate.io/crates/rust-csv" ,package = "csv"}
+serde_derive = { package = "serde_derive", version = "1.0.139" }
